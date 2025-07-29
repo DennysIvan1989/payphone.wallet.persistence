@@ -23,7 +23,7 @@ public partial class Wallet
 
     public DateTime CreateAt { get; set; }
 
-    public string UserUpdate { get; set; } = null!;
+    public string? UserUpdate { get; set; } = null!;
 
     public DateTime? UpdateAt { get; set; }
 
